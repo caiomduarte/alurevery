@@ -46,7 +46,6 @@ fun HomeScreen(
             mutableStateOf(searchText)
         }
 
-
         val searchProducts = remember(text) {
 
             sampleProducts.filter { product ->
